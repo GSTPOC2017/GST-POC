@@ -14,7 +14,7 @@ namespace SAP.Connector.UI
         {
             SAPConnector sapConnector = new SAPConnector();
             sapConnector.GetSAPData();
-            MessageBox.Show("Welcome TO SAP Connector _ GST");
+            MessageBox.Show("Welcome TO SAP Connector _ GST1");
         }
     }
 }

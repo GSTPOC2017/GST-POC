@@ -14,7 +14,7 @@ namespace SAP.Connector.UI
         {
             SAPConnector sapConnector = new SAPConnector();
             sapConnector.GetSAPData();
-            MessageBox.Show("Welcome SAP");
+            MessageBox.Show("Welcome TO SAP Connector");
         }
     }
 }

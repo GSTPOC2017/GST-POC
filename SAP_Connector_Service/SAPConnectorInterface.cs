@@ -25,6 +25,8 @@ namespace SAPConnectorService
                 // IRFC Repository
                 RfcRepository repo = rfcDestination.Repository;
 
+                IRfcFunction rfcFunct = repo.CreateFunction("RFC_READ_TABLE");  //RFC   
+
                 // Function to Get Company Code List in IRFC table Format.
                 IRfcFunction testfn = repo.CreateFunction("BAPI_COMPANYCODE_GETLIST");
                     // 
